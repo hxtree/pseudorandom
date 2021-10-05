@@ -1,0 +1,10 @@
+{
+  "name": "hxtree/pseudorandom",
+  "description": "A pseudorandom number generator for generating a sequence of numbers whose properties approximate the properties of sequences of random numbers.",
+  "keywords" : ["PRNG","DRBG","deterministic random bit generator"],
+  "autoload": {
+    "psr-4": {
+      "Hxtree\\Pseudorandom\\": "src/"
+    }
+  }
+}
