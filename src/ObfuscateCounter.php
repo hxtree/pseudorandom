@@ -4,6 +4,7 @@ namespace Hxtree\Pseudorandom;
 
 /**
  * Class ObfuscateCounter
+ * Hits every number between min and max 0000000 - 9999999.
  * @package Hxtree\Pseudorandom
  */
 class ObfuscateCounter
@@ -105,9 +106,9 @@ class ObfuscateCounter
     }
 
     /**
-     * Increment a seeded encrypted value
-     * @param string $seed
-     * @return string
+     * Increment a seeded encrypted value.
+     * @param string $seed must be an even amount of digits and two or more digits with leading zero
+     * @return string encrypted incremented value
      */
     public function run(string $seed) : string
     {
