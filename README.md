@@ -30,5 +30,5 @@ for($i = 0; $i < 10000; $i++){
 ```
 git clone https://github.com/hxtree/pseudorandom.git
 docker build --target test --tag pseudorandom:latest -f Dockerfile .
-docker run -it --mount type=bind,source="$(pwd)"/,target=/application/ pseudorandom:latest php public/index.php
+docker run -it --mount type=bind,source="$(pwd)"/,target=/application/ pseudorandom:latest php tests/FisherYatesShuffle.php
 ```
