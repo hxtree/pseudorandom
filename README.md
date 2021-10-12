@@ -5,7 +5,7 @@ generator (DRBG), used for generating a sequence of numbers whose properties app
 random numbers.
 
 ## FisherYatesShuffle
-Although the exact collision point varies based on random, using 10 digits a repeat was encountered after 2766 iterations.
+Although the exact collision point varies based on random, a repeat was encountered using 10 digits after 2766 iterations.
 ```
 <?php
 
